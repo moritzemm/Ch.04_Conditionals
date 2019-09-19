@@ -1,28 +1,27 @@
-# Sign your name:________________
+# Sign your name:___Emma_Moritz___
 
   #1. Make the following program work.
-     
-     midichlorians = float(input("Enter midichlorian count: ")
-     if midichlorians > 10000
-         print("You have serious Jedi potential")
-     elif:
-         print("Jedi, you will never be.")
 
+# midichlorians=float(input("Enter midichlorian count: "))
+# if midichlorians>10000:
+#  print("You have serious Jedi potential")
+# else:
+#  print("Jedi, you will never be.")
 
  # 2. Make the following program work.
      
-     x = input("Enter a number: ")
-     if x = 3
-         print("You entered 3")
+x = int(input("Enter a number: "))
+if x=3:
+    print("You entered 3")
 
-
+'''
   # 3. Make the following program work. 
      
-     answer = input("What is the name of Poe Dameron's Droid? ")
-     if a = "BB8":
-         print("Correct!")
-         else
-         print("Incorrect! It is BB8.")
+a = input("What is the name of Poe Dameron's Droid? ")
+if a = "BB8":
+    print("Correct!")
+else
+    print("Incorrect! It is BB8.")
 
 
   # 4. Make the following program work.
@@ -51,3 +50,4 @@
          sensitivity = 0
 
      print("Sensitivity: ",Sensitivity)
+'''

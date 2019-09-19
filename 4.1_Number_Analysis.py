@@ -18,3 +18,9 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+print("Welcome to the number analysis program!")
+N=int(input("What number should I analyze?"))
+if N
+    print()
+else:
+    print()
