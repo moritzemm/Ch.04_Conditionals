@@ -21,6 +21,6 @@ Out:  Test 1: Odd
 print("Welcome to the number analysis program!")
 N=int(input("What number should I analyze?"))
 if N
-    print()
-else:
-    print()
+    print("")
+elif:
+    print("")
