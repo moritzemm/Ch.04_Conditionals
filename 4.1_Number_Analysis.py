@@ -19,8 +19,20 @@ Out:  Test 1: Odd
       Test 3: Exclusive
 '''
 print("Welcome to the number analysis program!")
-N=int(input("What number should I analyze?"))
-if N
-    print("")
-elif:
-    print("")
+N=int(input("What number should I analyze? "))
+if N%2==0 :
+    print("Your number is Even")
+else :
+    print("Your number is Odd")
+print ()
+if N >= 0 :
+    print("Your number is Positive")
+    #add 0
+else:
+    print("Your number is Negative")
+print()
+if N >=-100 and N<=100:
+    print("Your number is Inclusive")
+else :
+    print("Your number is Exclusive")
+print()
