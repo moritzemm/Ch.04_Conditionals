@@ -28,28 +28,29 @@
 #
 # x = input("Name one of the top 3 greatest Jedi.")
 # if x == "Yoda" or x=="Luke Skywalker" or x=="Obi-Wan Kenobi":
-# print ("That is correct!")
+#   print ("That is correct!")
 #
 #
 #
 #  # 5. Make the following program work whether they enter a, A, Jedi Master or jedi master.
 # # print("Not a choice") if they don't enter any of the 3 an set sensitivity to blank text.
 #
-# print("Welcome to the Jedi Academy!")
-#
-# print("A. Jedi Master")
-# print("B. Sith Lord")
-# print("C. Droid")
-#
-# user_input = input("Choose a character: ")
-#
-# if user_input.lower() == "a" :
-#          sensitivity = 1000
-# elif user_input.lower() == "b" :
-#          sensitivity = 900
-# elif user_input.lower() == "c" :
-#          sensitivity = 0
-# else:
-#     print("Not a choice")
-#
-# print("Sensitivity: ",sensitivity)
+print("Welcome to the Jedi Academy!")
+
+print("A. Jedi Master")
+print("B. Sith Lord")
+print("C. Droid")
+
+user_input = input("Choose a character: ")
+
+if user_input.lower() == "a" :
+         sensitivity = 1000
+elif user_input.lower() == "b" :
+         sensitivity = 900
+elif user_input.lower() == "c" :
+         sensitivity = 0
+else:
+    print("Not a choice")
+    sensitivity="Not available"
+
+print("Sensitivity: ",sensitivity)
