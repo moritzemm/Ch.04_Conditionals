@@ -8,7 +8,7 @@ must say correct or not after each question, have nice spacing,
 '''
 print("~Welcome to the basic welding quiz~")
 Ts=0
-
+Num=7
 A = input("1. What type of welding is most commonly used in industries?\nA. Tig\nB. Mig\nC. Gas\n")
 if A.lower() == "b" or A.lower() == "mig":
     print("Correct!")
@@ -30,7 +30,7 @@ if  A.lower() == "a" or A.lower() == "7018":
     print("Correct!")
     Ts+=1
 else :
-    print("Not a choice")
+    print("Sorry! The answer is A.")
 print()
 
 A= input("4. Why must we wear safty glasses when in the welding shop?\nA. Because sparks fly and could get into your eyes\nB. Because they look cool\nC. You don't\n")
@@ -66,8 +66,10 @@ if A.lower() == "b" or A.lower() == "ground the work piece":
 else :
     print("Sorry! The answer is B.")
 print()
+Per=(Ts/Num)*100
 
 print("Your final score is",Ts)
+print("Your Percentage is",Per)
 if Ts >= 7:
     LG = "Your letter grade is A"
 elif Ts >= 6:

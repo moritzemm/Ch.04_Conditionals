@@ -27,7 +27,8 @@ else :
 print ()
 if N >= 0 :
     print("Your number is Positive")
-    #add 0
+elif N==0 :
+    print("Your number is zero")
 else:
     print("Your number is Negative")
 print()
